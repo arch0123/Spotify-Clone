@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{ 
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin :  0px;
+    padding : 0px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+}
+nav ul li{
+ padding : 0px 12px;
+
+}
+
+.Brand img {
+    height: 52px;
+    width: 54px;
+    padding : 0px 8px 
+}
+
+.Brand{
+    display : flex ;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.Container{
+     min-height:60vh ;
+     background-color: black;
+     color : white;
+     width: 80%;
+     height: 120px;
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     margin : 60px auto;
+     border-radius: 12px;
+     padding : 34px;
+     background-image:url(bg.jpeg) ;
+     background-size: cover; 
+
+     
+
+
+}
+
+.Bottom{
+    position: sticky;
+    height: 125px;
+    background-color: black;
+   bottom : 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color : white;
+   flex-direction: column;
+   
+   
+}
+
+ .icons{
+    display: flex;
+    margin : 18px 20px;
+    padding : 30px 0px ;
+
+
+    
+    
+} 
+
+.icons i{
+    cursor: pointer; 
+    
+    margin: 0px 25px;
+    
+
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.SongItemContainer{
+ margin-top: 50px;
+    
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 120%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius : 34px; 
+
+
+}
+
+.songItem img{
+    width: 47px;
+    margin : 0px 23px;
+    border-radius: 34px;
+
+}
+
+.timeStamp{
+    margin : 0px 23px;
+    
+}
+
+.timeStamp i{
+    margin : 0px 10px;
+    cursor: pointer; 
+}
+
+
+.SongInfo{
+    position : absolute;
+    left : 10vw ;
+
+}
+
+.SongInfo img{ 
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+} 
+
+.volumeContainer{
+    display: flex;
+    position: absolute;
+    right : 0;
+    cursor: pointer;
+
+}
+
+#muteIcon{
+
+    margin: 0px 10px;
+
+}
+
